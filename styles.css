@@ -1,1 +1,117 @@
-font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+* {
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background: #eceef1; */
+}
+
+.nav-bar {
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 12px;
+    padding: 10px 20px;
+}
+
+.account {
+    margin-right: 15px;
+}
+.sign-in-button {
+    background: #0077C5;
+    color: white;
+    border: 1px solid #4c4c4c;
+    border-radius: 4px;
+    padding: 2px 17px;
+    
+}
+
+#forgot-account {
+    text-decoration: none;
+}
+
+.logo {
+    text-align: center;
+    padding: 10px 30px 10px 30px
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+.mint-icon-shortcut {
+    background: url(/images/mint-logo.svg) no-repeat;
+    width: 23px;
+    height: 23px;
+    display: inline-block;
+    margin-right: 4px;
+    position: relative;
+    
+}
+
+.qb-icon-shortcut {
+    background: url(/images/qb-logo.svg) no-repeat;
+    width: 23px;
+    height: 23px;
+    display: inline-block;
+    margin-right: 4px;
+    position: relative;
+    
+}
+
+
+.tt-icon-shortcut {
+    background: url(/images/turbo-logo.svg) no-repeat;
+    width: 23px;
+    height: 23px;
+    display: inline-block;
+    margin-right: 4px;
+    position: relative;
+    
+    
+}
+
+
+
+.links-wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+    
+    
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.text-links {
+
+  
+    
+}
+
+.sign-up-container {
+    text-align: center;
+}
+
+.create-text .one-account-text .learn-more-link {
+    /* display: flex;
+    text-align: center; */
+}
+
+.create-text {
+    font-size: larger;
+    font-weight: 400
+    
+    
+    
+
+}

@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Sign-Up Form Intuit</title>
 </head>
 <body>
     <div class="nav-bar">
@@ -13,41 +14,45 @@
             <a id="forgot-account" href="#">I forgot my User ID or Password</a>
         </div>
         <div class="sign-in-div">
-            <button id="sign-in-button">
+            <button class="sign-in-button">
                 <span class="white-lock-ing">
+                    <img src="images/white-lock-img.svg">
                 </span>
                  Sign In 
             </button>
         </div>
     </div>
     <div class="logo">
-        <img src="#">
+        <img id="logo-img" src="/images/1200px-Intuit_Logo.svg.png" style="width:118px; height:35px;">
     </div>
-    <ul class="links">
-        <li>
-            <span></span>
-            <a></a>
-        </li>
-        <li>
-            <span></span>
-            <a></a>
-        </li>
-        <li>
-            <span></span>
-            <a></a>
-        </li>
-    </ul>
+    <div class="links-wrapper">
+        <ul class="links">
+            <li>
+                <span class="mint-icon-shortcut" ></span>
+                <a href="#" class="text-links">mint</a>
+            </li>
+            <li>
+                <span class="qb-icon-shortcut"></span>
+                <a>quickbooks</a>
+            </li>
+            <li>
+                <span class="tt-icon-shortcut"></span>
+                <a>turbotax</a>
+            </li>
+        </ul>
+    </div>
+    
     <div class="sign-up-wrapper">
         <div class="sign-up-container">
-            <span>Create an Intuit account</span>
-            <div>One account for everything Intuit, including Mint.</div>
-            <a href="#">Learn more</a>
+            <div class="create-text">Create an Intuit account</div>
+            <div class="one-account-text">One account for everything Intuit, including Mint.</div>
+            <a href="#" class="learn-more-link">Learn more</a>
             <form>
                 <div>Email address</div>
                 <input type="email" name="email-address" placeholder="Email">
                 <div>Phone (recommended)</div>
                 <input type="tel" name="phone-number" placeholder="Phone">
-                <!-- <div class="password-container"></div> -->
+                <div class="password-container"></div>
                 <div>Password</div>
                 <input type="text" name="password" placeholder="Password">
                 <div class="create-account-div">
