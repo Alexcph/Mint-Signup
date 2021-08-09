@@ -93,7 +93,11 @@ ul {
 }
 
 .text-links {
-
+  
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    
   
     
 }
@@ -210,6 +214,8 @@ ul {
 .trademark-container {
     text-align: center;
     margin: 25px;
+    padding: 0px 100px;
+    font-size: 12px;
 }
 
 .privacy {
