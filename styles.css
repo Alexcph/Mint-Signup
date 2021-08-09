@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background: #eceef1; */
+    background: #eceef1;
 }
 
 .nav-bar {
@@ -100,6 +100,17 @@ ul {
 
 .sign-up-container {
     text-align: center;
+    border: 1px solid rgb(194, 189, 189);
+    background: rgb(255, 255, 255);
+    margin: auto;
+    overflow: visible;
+    padding: 30px;
+    -webkit-box-sizing: border-box;
+    width: 380px;
+}
+
+.input-fields {
+    max-width: 340px;
 }
 
 .create-text .one-account-text .learn-more-link {
@@ -109,9 +120,105 @@ ul {
 
 .create-text {
     font-size: larger;
-    font-weight: 400
-    
-    
-    
+    font-weight: 400;
+    padding: 0px 0px 20px;  
 
+}
+
+.one-account-text {
+    font-size: 14px;
+    color: #393A3D;
+}
+
+.learn-more-link {
+    display: block;
+    padding: 0px 0px 20px;
+
+}
+
+.email-label {
+    font-size: 14px;
+    line-height: 25px;
+    text-align: left;
+
+}
+.phone-label {
+    font-size: 14px;
+    line-height: 25px;
+    text-align: left;
+}
+
+.password-label {
+    font-size: 14px;
+    line-height: 25px;
+    text-align: left;
+}
+
+.email-input {
+    width: 320px;
+    margin-bottom: 20px;
+    height: 20px;
+}
+
+.password-field {
+    width: 320px;
+    margin-bottom: 20px;
+    height: 20px;
+}
+
+.phone-field {
+    width: 320px;
+    margin-bottom: 20px;
+    height: 20px;
+}
+
+.unlocked-lock {
+    background: url(/images/open-lock.png) no-repeat 0% 50% / 21px 21px;;
+   
+    width: 33px;
+    
+}
+
+.create-account-div {
+    /* background: turquoise; */
+}
+
+#create-account-button {
+    background: #167CCC;
+    /* min-width: 100px */
+    width: 320px;
+    padding: 5px 34px;
+    margin-left: 4px;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: stronger;
+    font-size: 16px;
+    
+}
+
+.terms {
+    font-style: italic;
+    font-size: 12px;
+    color: #757575;
+}
+
+.legal-stuff-container {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.trademark-container {
+    text-align: center;
+    margin: 25px;
+}
+
+.privacy {
+    background-color: #FFFFFF;
+    padding: 20px 20px;
+    margin-top: 72px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-bottom: 20px;
+    
 }

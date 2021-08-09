@@ -37,7 +37,7 @@
             </li>
             <li>
                 <span class="tt-icon-shortcut"></span>
-                <a>turbotax</a>
+                <a style="">turbotax</a>
             </li>
         </ul>
     </div>
@@ -48,28 +48,41 @@
             <div class="one-account-text">One account for everything Intuit, including Mint.</div>
             <a href="#" class="learn-more-link">Learn more</a>
             <form>
-                <div>Email address</div>
-                <input type="email" name="email-address" placeholder="Email">
-                <div>Phone (recommended)</div>
-                <input type="tel" name="phone-number" placeholder="Phone">
+                <div class="input-fields">
+
+                </div>
+                <div class="email-label">Email address</div>
+                <input class="email-input" type="email" name="email-address" >
+                <div class="phone-label" >Phone (recommended)</div>
+                <input class="phone-field" type="tel" name="phone-number" >
                 <div class="password-container"></div>
-                <div>Password</div>
-                <input type="text" name="password" placeholder="Password">
+                <div class="password-label" >Password</div>
+                <div class="password-input-container">
+                    <input class="password-field"  type="text" name="password" > 
+                    <span class="unlocked-lock" aria-live="polite"></span>  
+                </div>
+                
                 <div class="create-account-div">
                     <button id="create-account-button">
                         <span class="white-lock-img"></span>
                         Create Account
                     </button>
-                </div>
-            </form>
 
+                    <div class="terms">
+                        By selecting Create Account, you agree to our <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statement</a>.
+                </div>    
+                    </div>
+                </div>
+                
+            </form>
+            
         </div>
-        <div>By selecting Create Account, you agree to our <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statement</a>.</div>
+        
     </div>
     <div class="legal-stuff-container">
         <div class="legal-links">
-            <a href="#">Legal</a>
-            <a href="#">Privacy</a>
+            <a href="#" style="margin-right: 10px;">Legal</a>
+            <a href="#" style="margin-right: 10px;">Privacy</a>
             <a href="#">Security</a>    
         </div>
         <div class="trademark-container">
@@ -78,7 +91,7 @@
         </div>
     </div>
     <footer>
-        <a href="#">Privacy Settings</a>
+        <a href="#" class="privacy">Privacy Settings</a>
     </footer>
 </body>
 </html>
