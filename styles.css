@@ -8,6 +8,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background: #eceef1;
+    
 }
 
 .nav-bar {
@@ -47,6 +48,7 @@ ul {
 
 .mint-icon-shortcut {
     background: url(/images/mint-logo.svg) no-repeat;
+    
     width: 23px;
     height: 23px;
     display: inline-block;
